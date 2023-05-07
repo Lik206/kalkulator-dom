@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+    </style>
+</head>
+<body>
+
+    <label for="input1">Input number here:</label>
+<input type="number" id="input1">
+<input type="number" id="input2">
+<label for="result">Result:</label>
+<input type="number" id="result" readonly>
+
+<div>
+    <br>
+<button id="add-btn">+</button>
+<button id="subtract-btn">-</button>
+<button id="multiply-btn">*</button>
+<button id="divide-btn">/</button>
+</div>
+<br>
+<button id="reset-btn">Reset</button>
+<script src="calculator.js"></script>
+</body>
+</html>
